@@ -14,9 +14,9 @@ export class CoursesComponent {
     title = "List of Courses"
     courses;
 
-    constructor(){
-        let service = new CoursesService();
+    constructor(service: CoursesService){
         this.courses = service.getCourses();
+        
     }
 
     //Logic for calling  an HTTP Service
