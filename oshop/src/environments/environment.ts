@@ -9,7 +9,7 @@ export const environment = {
     authDomain: "oshop-fcc4f.firebaseapp.com",
     databaseURL: "https://oshop-fcc4f.firebaseio.com",
     projectId: "oshop-fcc4f",
-    storageBucket: "",
+    storageBucket: "oshop-fcc4f.appspot.com",
     messagingSenderId: "149556553393"
   }
 };
